@@ -1,4 +1,4 @@
-# User Display Exercise
+# User Display Exercise -- Aaron Briggs
 
 This exercise will provide you with practice with IntelliJ, Tomee+, MySqL and Maven, while providing a refresher
 on many topics from Advanced Java including servlets, jsps, properties, jdbc, expression language (el) and beans. 
