@@ -1,0 +1,54 @@
+2017-09-05 11:17:00,455 0    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where last_name = 'Karen';
+2017-09-05 11:17:07,575 7120 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where first_name = 'Karen';
+2017-09-05 11:31:00,059 0    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where all = '';
+2017-09-05 11:31:00,060 1    [http-nio-8080-exec-10] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where all = '';
+2017-09-05 11:33:49,764 0    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where all = '';
+2017-09-05 11:33:49,766 2    [http-nio-8080-exec-10] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where all = '';
+2017-09-05 11:42:43,701 0    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where all = '';
+2017-09-05 11:42:43,704 3    [http-nio-8080-exec-10] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where all = '';
+2017-09-05 11:42:55,230 11529 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where first_name = 'Karen';
+2017-09-05 11:42:55,231 11530 [http-nio-8080-exec-1] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where first_name = 'Karen';
+2017-09-05 11:43:00,488 16787 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where first_name = '1';
+2017-09-05 11:43:00,488 16787 [http-nio-8080-exec-2] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where first_name = '1';
+2017-09-05 11:43:03,948 20247 [http-nio-8080-exec-3] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where id = '1';
+2017-09-05 11:43:03,948 20247 [http-nio-8080-exec-3] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where id = '1';
+2017-09-05 11:43:12,565 28864 [http-nio-8080-exec-4] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where last_name = 'Mack';
+2017-09-05 11:43:12,565 28864 [http-nio-8080-exec-4] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where last_name = 'Mack';
+2017-09-05 11:43:17,235 33534 [http-nio-8080-exec-5] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where all = 'Mack';
+2017-09-05 11:43:17,235 33534 [http-nio-8080-exec-5] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where all = 'Mack';
+2017-09-05 11:47:54,842 0    [http-nio-8080-exec-9] INFO  edu.matc.persistence.UserData  - this is searchTerm wer
+2017-09-05 11:47:54,843 1    [http-nio-8080-exec-9] INFO  edu.matc.persistence.UserData  - this is searchType all
+2017-09-05 11:47:54,843 1    [http-nio-8080-exec-9] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where all = 'wer';
+2017-09-05 11:47:54,843 1    [http-nio-8080-exec-9] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where all = 'wer';
+2017-09-05 11:51:33,259 0    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - this is searchTerm 
+2017-09-05 11:51:33,260 1    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - this is searchType all
+2017-09-05 11:51:33,260 1    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users;
+2017-09-05 11:51:33,260 1    [http-nio-8080-exec-10] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users;
+2017-09-05 11:51:39,461 6202 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - this is searchTerm wer
+2017-09-05 11:51:39,461 6202 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - this is searchType all
+2017-09-05 11:51:39,461 6202 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users;
+2017-09-05 11:51:39,461 6202 [http-nio-8080-exec-1] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users;
+2017-09-05 11:51:50,275 17016 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - this is searchTerm 1
+2017-09-05 11:51:50,275 17016 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - this is searchType id
+2017-09-05 11:51:50,275 17016 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where id = '1';
+2017-09-05 11:51:50,275 17016 [http-nio-8080-exec-2] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where id = '1';
+2017-09-05 11:52:05,010 31751 [http-nio-8080-exec-3] INFO  edu.matc.persistence.UserData  - this is searchTerm Mack
+2017-09-05 11:52:05,011 31752 [http-nio-8080-exec-3] INFO  edu.matc.persistence.UserData  - this is searchType last_name
+2017-09-05 11:52:05,011 31752 [http-nio-8080-exec-3] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where last_name = 'Mack';
+2017-09-05 11:52:05,011 31752 [http-nio-8080-exec-3] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where last_name = 'Mack';
+2017-09-05 12:04:55,600 802341 [http-nio-8080-exec-5] INFO  edu.matc.persistence.UserData  - this is searchTerm Mack
+2017-09-05 12:04:55,601 802342 [http-nio-8080-exec-5] INFO  edu.matc.persistence.UserData  - this is searchType all
+2017-09-05 12:04:55,601 802342 [http-nio-8080-exec-5] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users;
+2017-09-05 12:04:55,601 802342 [http-nio-8080-exec-5] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users;
+2017-09-05 12:25:47,053 0    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - this is searchTerm 
+2017-09-05 12:25:47,063 10   [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - this is searchType all
+2017-09-05 12:25:47,063 10   [http-nio-8080-exec-10] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users;
+2017-09-05 12:25:47,063 10   [http-nio-8080-exec-10] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users;
+2017-09-05 12:25:52,830 5777 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - this is searchTerm 
+2017-09-05 12:25:52,830 5777 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - this is searchType first_name
+2017-09-05 12:25:52,830 5777 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where first_name = '';
+2017-09-05 12:25:52,830 5777 [http-nio-8080-exec-1] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where first_name = '';
+2017-09-05 12:26:00,272 13219 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - this is searchTerm Karen
+2017-09-05 12:26:00,272 13219 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - this is searchType first_name
+2017-09-05 12:26:00,272 13219 [http-nio-8080-exec-2] INFO  edu.matc.persistence.UserData  - Code reached runQuery(), the sql is SELECT * FROM users where first_name = 'Karen';
+2017-09-05 12:26:00,272 13219 [http-nio-8080-exec-2] ERROR edu.matc.persistence.UserData  - (error) the sql is SELECT * FROM users where first_name = 'Karen';
